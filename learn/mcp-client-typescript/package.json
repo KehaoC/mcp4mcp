@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_siliconflow": "tsc && chmod 755 build/index_siliconflow.js && node build/index_siliconflow.js /Users/kehao/CodeSpace/mcp4mcp/learn/weather_node/build/index.js",
+    "test_claude": "tsc && chmod 755 build/index_claude.js && node build/index_claude.js /Users/kehao/CodeSpace/mcp4mcp/learn/weather_node/build/index.js",
     "build": "tsc && chmod 755 build/index.js"
   },
   "keywords": [],
@@ -13,7 +14,8 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@modelcontextprotocol/sdk": "^1.7.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "openai": "^4.89.1"
   },
   "devDependencies": {
     "@types/node": "^22.13.13",
