@@ -2,5 +2,10 @@
 一个mcp的mcp服务器。
 如果把不同类型的mcp服务器比作不同的硬盘，那么mcp4mcp就是一个硬盘的快速查找表，帮助你可以快速的找到需要的“硬盘”
 
-A mcp server for mcp server.
-If regard different kinds of mcp server as a "hardware" where we could access multi kind of data from any source, then mcp4mcp is a quick look table for "hardware", help u to find needed "hardware" as quick as possible.
+目前而言，绝大多数的mcp 服务器都是用户独立上传在 github 上面，然后通过自己部署本地使用。
+那么如何找到自己想要的 mcp 服务器就是一个显著的问题。
+
+mcp4mcp 就是这样一个工具，帮助你快速的找到自己想要的 mcp 服务器。
+# 开发过程
+
+本身就是一个 mcp 服务器，这个服务器可以访问 github api，获取到相关的 mcp 服务器信息。
